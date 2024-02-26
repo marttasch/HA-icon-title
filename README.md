@@ -5,11 +5,15 @@ A Custom Lovelace Card for Home Assistant wich displays an icon next to a title.
 
 
 ## Usage
+- on Lovelace UI, click on _Edit Dashboard_ and add a new card
+- select _Manual_ and paste the following code:
 ```yaml	
 type: 'custom:icon-title'
-title: Title
-icon: mdi:icon
+title: <title>
+icon: mdi:<icon-name>
 ```
+- replace `<title>` with the title you want to display (e.g. `Scences`)
+- replace `<icon-name>` with the name of the icon you want to display (e.g. `lamps`)
 
 ## Installation
 ### HACS
