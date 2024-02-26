@@ -12,6 +12,16 @@ icon: mdi:icon
 ```
 
 ## Installation
+### HACS
+1. Open HACS UI
+2. Go to _Frontend_ tab
+3. Click the three dots in the top right corner and select _Custom Repositories_
+4. Add the URL of this repository and select _Lovelace_ as category
+  - URL: https://github.com/marttasch/HA-icon-title
+  - Category: Lovelace
+5. Click _Add_
+6. Click the plus icon in the bottom right corner and search for _icon-title_ and install it
+
 ### Manual
 1. Download `icon-title.js` from the latest release.
 2. Place the file in your `config/www` folder.
